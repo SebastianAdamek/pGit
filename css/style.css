@@ -42,3 +42,23 @@ header nav > ul >li:hover{
 header nav > ul >li a:hover{
 	color: lightcoral;
 }
+
+#main{
+	width: 900px;
+	margin: auto;
+	display: flex;
+}
+
+#main  .main-article{
+	width: 750px;
+	height: 100vw;
+	background: red;
+	
+}
+
+#main .main-aside{
+	width: 150px;
+	height: 100vw;
+	background: blue;
+	
+}
