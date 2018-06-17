@@ -1,0 +1,44 @@
+#body{
+	font-family: 'Poiret One', cursive !important;
+}
+
+#title {
+	text-align: center;
+	color: lightcoral;
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive !important;
+	
+
+}
+
+header nav > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+header nav > ul >li {
+	width: 20%;
+	tetx-align: center;
+	text-align: center;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+header nav > ul >li>a {
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive !important;
+	
+	display: block;
+	text-decoration: none;
+	color: black;
+	transition: 0.2s all linear;
+}
+
+header nav > ul >li:hover{
+}
+
+header nav > ul >li a:hover{
+	color: lightcoral;
+}
