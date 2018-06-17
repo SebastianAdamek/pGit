@@ -1,0 +1,92 @@
+[33mcommit edc1b579d858ccb6dc23dd19a5226eda6deacdcb[m[33m ([m[1;36mHEAD -> [m[1;32mnowy[m[33m, [m[1;31morigin/nowy[m[33m)[m
+Author: sebadamek <sebadamek@wp.pl>
+Date:   Sun Jun 17 13:26:46 2018 +0200
+
+    inicjalizacja projektu
+
+[1mdiff --git a/css/style.css b/css/style.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..50727c0[m
+[1m--- /dev/null[m
+[1m+++ b/css/style.css[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m#body{[m
+[32m+[m	[32mfont-family: 'Poiret One', cursive !important;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m#title {[m
+[32m+[m	[32mtext-align: center;[m
+[32m+[m	[32mcolor: lightcoral;[m
+[32m+[m	[32mtext-transform: uppercase;[m
+[32m+[m	[32mfont-family: 'Poiret One', cursive !important;[m
+[32m+[m[41m	[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mheader nav > ul {[m
+[32m+[m	[32mmargin: 0;[m
+[32m+[m	[32mpadding: 0;[m
+[32m+[m	[32mlist-style: none;[m
+[32m+[m	[32mdisplay: flex;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mheader nav > ul >li {[m
+[32m+[m	[32mwidth: 20%;[m
+[32m+[m	[32mtetx-align: center;[m
+[32m+[m	[32mtext-align: center;[m
+[32m+[m	[32mpadding: 5px 10px;[m
+[32m+[m	[32mcursor: pointer;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mheader nav > ul >li>a {[m
+[32m+[m	[32mtext-transform: uppercase;[m
+[32m+[m	[32mfont-family: 'Poiret One', cursive !important;[m
+[32m+[m[41m	[m
+[32m+[m	[32mdisplay: block;[m
+[32m+[m	[32mtext-decoration: none;[m
+[32m+[m	[32mcolor: black;[m
+[32m+[m	[32mtransition: 0.2s all linear;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mheader nav > ul >li:hover{[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mheader nav > ul >li a:hover{[m
+[32m+[m	[32mcolor: lightcoral;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d66a0f9[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m	[32m<head>[m
+[32m+[m		[32m<meta charset="UTF-8">[m
+[32m+[m		[32m<title>Zabawa z Gitem</title>[m
+[32m+[m		[32m<link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=latin-ext" rel="stylesheet">[m
+[32m+[m		[32m<link rel="stylesheet" href="css\style.css">[m
+[32m+[m	[32m</head>[m
+[32m+[m	[32m<body>[m
+[32m+[m		[32m<header>[m
+[32m+[m			[32m<section>[m
+[32m+[m				[32m<div id="title">[m
+[32m+[m					[32m<h1>To mój pierwszy projekt w Git :)</h1>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<nav>[m
+[32m+[m					[32m<ul>[m
+[32m+[m						[32m<li><a href="http:\\www.google.pl" target="_blank">Git</a></li>[m
+[32m+[m						[32m<li><a href="http:\\www.google.pl" target="_blank">GitHub</a></li>[m
+[32m+[m						[32m<li><a href="http:\\www.google.pl" target="_blank">Phyton</a></li>[m
+[32m+[m						[32m<li><a href="http:\\www.google.pl" target="_blank">C++</a></li>[m
+[32m+[m						[32m<li><a href="http:\\www.google.pl" target="_blank">PHP</a></li>[m
+[32m+[m						[32m<li><a href="http:\\www.google.pl" target="_blank">Prel</a></li>[m
+[32m+[m					[32m</ul>[m
+[32m+[m				[32m</nav>[m
+[32m+[m			[32m</section>[m
+[32m+[m		[32m</header>[m
+[32m+[m	[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
